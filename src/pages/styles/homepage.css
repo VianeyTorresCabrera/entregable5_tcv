@@ -1,0 +1,55 @@
+.homepage{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    height: 80%;    
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_img{
+    width: 70%;
+    padding: 10px;
+}
+
+.homepage h2{
+    color: red;    
+}
+
+.homepage p{
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.homepage input,
+.pokeselect,
+.pokedex_search{
+    border: 2px solid rgba(128, 128, 128, 0.322);
+    border-radius: 5px; 
+    height: 30px;   
+}
+
+.homepage button,
+.pokedex_pag_btn_prev,
+.pokedex_pag_btn_next,
+.pokedex_search_btn{    
+    border: 2px solid red;
+    border-radius: 5px 10px 5px 10px;
+    background-color: red;
+    transition: scale 0.5s;
+    color: black;
+    height: 30px;
+}
+
+.homepage button:hover,
+.pokedex_pag_btn_prev:hover,
+.pokedex_pag_btn_next:hover,
+.pokedex_search_btn:hover{     
+    scale: 1.1;
+    font-weight: 900;
+    transition: scale 0.5s;
+}
+
+
+
